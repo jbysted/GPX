@@ -1,0 +1,13 @@
+html {
+    background-color: #222;
+    color: white;
+}
+
+body {
+    text-align: center;
+    margin-top: 100px;
+}
+
+a:-webkit-any-link {
+    color: lightblue
+}

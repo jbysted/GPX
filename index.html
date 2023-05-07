@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPX-splitter</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.4/jszip.min.js"></script>
+    <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.min.js" ></script>
+    <script defer src="app.js" type=""></script>
+    
+</head>
+<body>
+    <div>Velkommen :)</div><br>
+
+    1: Upload .gpx! <br>
+    <input type="file" name="" id="file_input"><br><br>
+
+    2: Antal punkter pr fil: <br>
+    <input type="number" name="" id="points" value="1000"><br><br>
+
+    3: Download! Store filer er noget tid om at blive klar. <br>Hold vinduet åbent, mens den loader<br>
+    <button id="download">Download</button><br><progress value="0" max="100" id="progress"></progress><br><br>
+    
+    4: Test! <br><a target="_blank" href="https://gpx.studio/">GPX Studio</a>
+</body>
+</html>
